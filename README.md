@@ -8,5 +8,3 @@
 * open http://localhost:4000
 
 bundle update # to update jekyll
-
-
