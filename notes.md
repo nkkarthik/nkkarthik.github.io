@@ -24,3 +24,16 @@ git pull
 make
 popd
 ```
+
+## Python
+
+### Anaconda python environments and pip like requirements.txt
+
+```sh
+conda create -n zst python # create a virtual environment called zst
+conda remove -n zst --all # remove virtual environment called zst
+source activate zst # activate virutal environment called zst
+conda list -e > requirements.txt # create packages list
+conda create -n zst --file requirements.txt # create env with the packages
+```
+
