@@ -11,6 +11,10 @@
 
     <packaging>pom</packaging>
 
+    <modules>
+        <module>../lab/kml</module>
+    </modules>
+
     <!-- <properties> -->
     <!--     <flutter.exe>${project.build.directory}/flutter/bin/flutter</flutter.exe> -->
     <!--     <firebase.exe>${project.build.directory}/firebase</firebase.exe> -->
@@ -47,7 +51,7 @@
             <!--                   <version>dev</version>-->
             <!--               </configuration>-->
             <!--           </plugin>-->
-            <plugin>
+            <!-- plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
@@ -56,9 +60,9 @@
                     <arguments>
                         <argument>-vaz</argument>
                         <argument>work</argument>
-                        <!-- <argument>kind</argument> -->
-                        <!-- <argument>helm</argument> -->
-                        <!-- <argument>dekorate</argument> -->
+                        <argument>kind</argument>
+                        <argument>helm</argument>
+                        <argument>dekorate</argument>
                         <argument>kmac.local:~/</argument>
                     </arguments>
                 </configuration>
@@ -70,7 +74,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin -->
 
                     </plugins>
     </build>
