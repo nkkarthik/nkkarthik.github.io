@@ -1,5 +1,7 @@
 bin/
 personal/
+homeip.txt
+settings.xml
 nvidia/
 idea/
 pharo/
@@ -17,3 +19,5 @@ Gemfile.lock
 .ipynb_checkpoints
 .DS_Store
 .localized
+*.swp
+
