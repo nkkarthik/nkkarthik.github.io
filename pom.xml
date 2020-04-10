@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>krishna</name>
+    <groupId>io.github.nkkarthik</groupId>
+    <artifactId>krishna</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <!-- <properties> -->
+    <!--     <flutter.exe>${project.build.directory}/flutter/bin/flutter</flutter.exe> -->
+    <!--     <firebase.exe>${project.build.directory}/firebase</firebase.exe> -->
+    <!-- </properties> -->
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+
+            <!--           <plugin>-->
+            <!--               <groupId>com.google.cloud.tools</groupId>-->
+            <!--               <artifactId>appengine-maven-plugin</artifactId>-->
+            <!--               <version>2.2.0</version>-->
+            <!--               <executions>-->
+            <!--                   <execution>-->
+            <!--                       <phase>deploy</phase>-->
+            <!--                       <goals>-->
+            <!--                           <goal>deploy</goal>-->
+            <!--                       </goals>-->
+            <!--                   </execution>-->
+            <!--               </executions>-->
+            <!--               <configuration>-->
+            <!--                   <projectId>hwinf-cisd-dev</projectId>-->
+            <!--                   <serviceAccountKeyFile>${env.GOOGLE_APPLICATION_CREDENTIALS}</serviceAccountKeyFile>-->
+            <!--                   <artifact>${pom.build.directory}/central-1.0-SNAPSHOT-runner.jar</artifact>-->
+            <!--                   <version>dev</version>-->
+            <!--               </configuration>-->
+            <!--           </plugin>-->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <configuration>
+                    <executable>rsync</executable>
+                    <arguments>
+                        <argument>-vaz</argument>
+                        <argument>work</argument>
+                        <!-- <argument>kind</argument> -->
+                        <!-- <argument>helm</argument> -->
+                        <!-- <argument>dekorate</argument> -->
+                        <argument>kmac.local:~/</argument>
+                    </arguments>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+                    </plugins>
+    </build>
+
+
+</project>
+

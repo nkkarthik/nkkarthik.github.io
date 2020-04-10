@@ -125,5 +125,17 @@ h1, p {
     padding: 2px;
 }
 
+#notes {
+    display: none;
+}
+#euler {
+    display: none;
+}
+#peg {
+    display: none;
+}
+
+
 .clear { clear:both; }
+
 
