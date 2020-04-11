@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/lab/kml/central/central.iml" filepath="$USER_HOME$/lab/kml/central/central.iml" />
       <module fileurl="file://$PROJECT_DIR$/docs.iml" filepath="$PROJECT_DIR$/docs.iml" />
+      <module fileurl="file://$USER_HOME$/lab/kml/fbsync/fbsync.iml" filepath="$USER_HOME$/lab/kml/fbsync/fbsync.iml" />
+      <module fileurl="file://$USER_HOME$/lab/kml/goals/goals.iml" filepath="$USER_HOME$/lab/kml/goals/goals.iml" />
+      <module fileurl="file://$USER_HOME$/lab/kml/pom/kml.iml" filepath="$USER_HOME$/lab/kml/pom/kml.iml" />
+      <module fileurl="file://$USER_HOME$/lab/kml/root.iml" filepath="$USER_HOME$/lab/kml/root.iml" />
+      <module fileurl="file://$USER_HOME$/lab/kml/ui/ui.iml" filepath="$USER_HOME$/lab/kml/ui/ui.iml" />
     </modules>
   </component>
 </project>
