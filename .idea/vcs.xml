@@ -3,48 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dotfiles" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/LanguageClient-neovim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/YCM-Generator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/ack.vim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/ale" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/deoplete.nvim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/fzf" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/gocode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/goyo.vim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/molokai" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/neomake" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/nerdtree" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/ultisnips" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-dadbod" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-easy-align" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-elixir" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-endwise" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-fireplace" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-github-dashboard" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-go" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-polyglot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/.config/nvim/plugged/vim-snippets" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/LanguageClient-neovim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/YCM-Generator" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/ack.vim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/ale" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/deoplete.nvim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/fzf" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/gocode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/goyo.vim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/molokai" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/neomake" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/nerdtree" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/ultisnips" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-dadbod" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-easy-align" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-elixir" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-endwise" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-fireplace" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-github-dashboard" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-go" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-polyglot" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/dotfiles/vim/plugged/vim-snippets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/_fa" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/ifab" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/infoblox" vcs="Git" />
