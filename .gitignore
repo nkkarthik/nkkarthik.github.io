@@ -1,3 +1,4 @@
+*.icloud
 target/
 bin/
 personal/
