@@ -142,7 +142,9 @@
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo.bak/pharo-local/iceberg/svenvc/NeoCSV" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo/pharo-local/iceberg/dionisiydk/libssh2-pharo-bindings" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo/pharo-local/iceberg/svenvc/NeoCSV" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/software/flutter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/software/flutter/.pub-cache/git/goldens-c47f1308188dca65b3899228cac37f252ea8b411" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/zoom/platform/zoom/zoom-nes-order/functions-samples" vcs="Git" />
-    <mapping directory="$USER_HOME$/lab/kml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../lab/kml" vcs="Git" />
   </component>
 </project>

@@ -21,7 +21,7 @@
       <module name="central" target="1.8" />
       <module name="docs" target="1.5" />
       <module name="fbsync" target="1.8" />
-      <module name="goals" target="1.7" />
+      <module name="goals" target="1.8" />
       <module name="kml" target="1.8" />
       <module name="root" target="1.5" />
       <module name="ui" target="1.8" />
