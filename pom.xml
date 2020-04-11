@@ -38,10 +38,10 @@
         </dependency>
 
 
-<!--        val clientId = "57682dea-2f73-4cce-aa0d-57163a0fdc73"-->
-<!--        val nationalCloud = null-->
-<!--        val clientSecret = "6hUcjdt?Jz93g3gWekyl-F==evI:85aH"-->
-<!--        val tenantId = "43083d15-7273-40c1-b7db-39efd9ccc17a"-->
+        <!--        val clientId = "57682dea-2f73-4cce-aa0d-57163a0fdc73"-->
+        <!--        val nationalCloud = null-->
+        <!--        val clientSecret = "6hUcjdt?Jz93g3gWekyl-F==evI:85aH"-->
+        <!--        val tenantId = "43083d15-7273-40c1-b7db-39efd9ccc17a"-->
         <dependency>
             <groupId>com.microsoft.graph</groupId>
             <artifactId>microsoft-graph</artifactId>
@@ -74,7 +74,9 @@
                 <executions>
                     <execution>
                         <id>compile</id>
-                        <goals> <goal>compile</goal> </goals>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
                         <configuration>
                             <sourceDirs>
                                 <sourceDir>${project.basedir}/src/main/kotlin</sourceDir>
@@ -84,7 +86,9 @@
                     </execution>
                     <execution>
                         <id>test-compile</id>
-                        <goals> <goal>test-compile</goal> </goals>
+                        <goals>
+                            <goal>test-compile</goal>
+                        </goals>
                         <configuration>
                             <sourceDirs>
                                 <sourceDir>${project.basedir}/src/test/kotlin</sourceDir>
@@ -112,17 +116,87 @@
                     <execution>
                         <id>java-compile</id>
                         <phase>compile</phase>
-                        <goals> <goal>compile</goal> </goals>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
                     </execution>
                     <execution>
                         <id>java-test-compile</id>
                         <phase>test-compile</phase>
-                        <goals> <goal>testCompile</goal> </goals>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
+
+
+    <profiles>
+        <profile>
+            <id>gitlab-cli</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.6.0</version>
+                        <configuration>
+                            <executable>helm</executable>
+                            <arguments>
+                                <argument>install</argument>
+                                <argument>--namespace</argument>
+                                <argument>kml</argument>
+                                <argument>--set</argument>
+                                <argument>gitlabUrl=https://gitlab-master.nvidia.com</argument>
+                                <argument>--set</argument>
+                                <argument>runnerRegistrationToken=VdScTzNC9MrPFnzZuDkk</argument>
+                                <argument>--set</argument>
+                                <argument>rbac.create=false</argument>
+                                <argument>--set</argument>
+                                <argument>rbac.serviceAccountName=kml</argument>
+                                <argument>kmlci</argument>
+                                <argument>gitlab/gitlab-runner</argument>
+                            </arguments>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>gitlab-runner</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.6.0</version>
+                        <configuration>
+                            <executable>helm</executable>
+                            <arguments>
+                                <argument>install</argument>
+                                <argument>--namespace</argument>
+                                <argument>kml</argument>
+                                <argument>--set</argument>
+                                <argument>gitlabUrl=https://gitlab-master.nvidia.com</argument>
+                                <argument>--set</argument>
+                                <argument>runnerRegistrationToken=VdScTzNC9MrPFnzZuDkk</argument>
+                                <argument>--set</argument>
+                                <argument>rbac.create=false</argument>
+                                <argument>--set</argument>
+                                <argument>rbac.serviceAccountName=kml</argument>
+                                <argument>kmlci</argument>
+                                <argument>gitlab/gitlab-runner</argument>
+                            </arguments>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+    </profiles>
 
 </project>
 
