@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/docs.iml" filepath="$PROJECT_DIR$/docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/fbsync/fbsync.iml" filepath="$PROJECT_DIR$/../lab/kml/fbsync/fbsync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" filepath="$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth_web/firebase_auth_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth_web/firebase_auth_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_core/firebase_core_web/firebase_core_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_core/firebase_core_web/firebase_core_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_database/firebase_database.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_database/firebase_database.iml" />
