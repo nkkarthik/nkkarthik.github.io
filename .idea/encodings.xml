@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../lab/kml/central/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/central/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/fbsync/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/fbsync/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../lab/kml/goals/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/pom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/pom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../lab/kml/ui/src/main/resources" charset="UTF-8" />

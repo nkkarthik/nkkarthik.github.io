@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/goals/goals.iml" filepath="$PROJECT_DIR$/../lab/kml/goals/goals.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/pom/kml.iml" filepath="$PROJECT_DIR$/../lab/kml/pom/kml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lab/kml/docker/ci/kmlci.iml" filepath="$PROJECT_DIR$/../lab/kml/docker/ci/kmlci.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/root.iml" filepath="$PROJECT_DIR$/../lab/kml/root.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/ui/ui.iml" filepath="$PROJECT_DIR$/../lab/kml/ui/ui.iml" />
     </modules>

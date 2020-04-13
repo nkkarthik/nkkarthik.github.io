@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module type="JAVA_MODULE" version="4">
   <component name="AutoImportedSourceRoots">
     <option name="directories">
       <list>
@@ -142,12 +142,18 @@
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-1.0.3/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-1.0.3/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-1.0.3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-2.1.0/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-2.1.0/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-2.1.0/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.35.4/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.35.4/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.35.4/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.4/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.4/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.4/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.6/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.6/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/analyzer-0.39.6/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13/build" />
@@ -460,13 +466,16 @@
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-7.3.0/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-7.3.0/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase-7.3.0/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+2/example/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-1.1.7/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-1.1.7/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_platform_interface-1.1.7/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.2/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.2/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.2/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.4+3/.pub" />
@@ -478,6 +487,9 @@
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-1.0.4/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_web-5.0.9/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_web-5.0.9/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_web-5.0.9/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/fixnum-0.10.11/build" />
@@ -670,6 +682,9 @@
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-1.0.4/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-1.0.4/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-1.0.4/build" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-2.0.0/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-2.0.0/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_packages_handler-2.0.0/build" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_proxy-0.1.0+7/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_proxy-0.1.0+7/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/software/flutter/.pub-cache/hosted/pub.dartlang.org/shelf_proxy-0.1.0+7/build" />
