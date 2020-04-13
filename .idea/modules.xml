@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/central/central.iml" filepath="$PROJECT_DIR$/../lab/kml/central/central.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/cloud_firestore/cloud_firestore_web/cloud_firestore_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/cloud_firestore/cloud_firestore_web/cloud_firestore_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/docs.iml" filepath="$PROJECT_DIR$/docs.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/fbsync/fbsync.iml" filepath="$PROJECT_DIR$/../lab/kml/fbsync/fbsync.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" filepath="$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth_web/firebase_auth_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth_web/firebase_auth_web.iml" />
@@ -16,8 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/goals/goals.iml" filepath="$PROJECT_DIR$/../lab/kml/goals/goals.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/pom/kml.iml" filepath="$PROJECT_DIR$/../lab/kml/pom/kml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../lab/kml/docker/ci/kmlci.iml" filepath="$PROJECT_DIR$/../lab/kml/docker/ci/kmlci.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../lab/kml/root.iml" filepath="$PROJECT_DIR$/../lab/kml/root.iml" />
       <module fileurl="file://$PROJECT_DIR$/../lab/kml/ui/ui.iml" filepath="$PROJECT_DIR$/../lab/kml/ui/ui.iml" />
     </modules>
   </component>

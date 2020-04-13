@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kmlci" />
+        <module name="goals" />
+        <module name="central" />
+        <module name="fbsync" />
+      </profile>
+      <profile name="Annotation profile for Documents" enabled="true">
+        <sourceOutputDir name="build/generated-sources/annotations" />
+        <sourceTestOutputDir name="build/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ui" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="central" target="1.8" />
-      <module name="docs" target="1.5" />
       <module name="fbsync" target="1.8" />
       <module name="goals" target="1.8" />
       <module name="kml" target="1.8" />
-      <module name="kmlci" target="1.8" />
-      <module name="root" target="1.5" />
       <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
