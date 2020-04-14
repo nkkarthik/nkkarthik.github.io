@@ -6,10 +6,6 @@
       <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage" />
       <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_messaging" />
       <root url="file://$PROJECT_DIR$/../lab/kml/ui" />
-      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_auth_web-0.1.2" />
-      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2" />
-      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.15.5+3" />
-      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.4+3" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
