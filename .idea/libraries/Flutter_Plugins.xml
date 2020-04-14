@@ -1,7 +1,9 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage" />
       <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth" />
+      <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_messaging" />
       <root url="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_auth/firebase_auth_web" />
     </CLASSES>
     <JAVADOC />
