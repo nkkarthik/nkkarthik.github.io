@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kmlci" />
-        <module name="goals" />
+        <module name="kml-maven-plugin" />
         <module name="central" />
         <module name="fbsync" />
       </profile>
