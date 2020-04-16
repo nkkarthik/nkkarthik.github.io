@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="kmlci" />
         <module name="kml-maven-plugin" />
-        <module name="central" />
         <module name="fbsync" />
       </profile>
       <profile name="Annotation profile for Documents" enabled="true">
@@ -18,5 +17,8 @@
         <module name="ui" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="central" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
