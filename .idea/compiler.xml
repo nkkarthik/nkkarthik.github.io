@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fbsync" />
+        <module name="kmlci" />
         <module name="cisd-maven-plugin" />
+        <module name="fbsync" />
       </profile>
       <profile name="Annotation profile for Documents" enabled="true">
         <sourceOutputDir name="build/generated-sources/annotations" />
@@ -18,7 +19,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="central" target="1.8" />
-      <module name="kmlci" target="1.8" />
       <module name="root" target="1.8" />
     </bytecodeTargetLevel>
   </component>
