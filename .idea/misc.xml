@@ -8,6 +8,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../lab/kml/base/quarkus/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -15,9 +16,6 @@
         <option value="$PROJECT_DIR$/../lab/kml/ci/pom.xml" />
       </set>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/../lab/kml/docs/dev.md" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="openjdk-14" project-jdk-type="JavaSDK" />
 </project>

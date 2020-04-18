@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kmlci" />
+        <module name="cisdagent" />
+        <module name="quarkus" />
         <module name="cisd-maven-plugin" />
       </profile>
     </annotationProcessing>
