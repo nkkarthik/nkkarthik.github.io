@@ -102,6 +102,7 @@
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo/pharo-local/iceberg/svenvc/NeoCSV" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/zoom/platform/zoom/zoom-nes-order/functions-samples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hub/firebase-dart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/maven-scm-publish-plugin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../lab/jlic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../lab/kml" vcs="Git" />
   </component>

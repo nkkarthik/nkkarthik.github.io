@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../lab/kml/base/quarkus/pom.xml" />
+        <option value="$PROJECT_DIR$/../hub/maven-scm-publish-plugin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
