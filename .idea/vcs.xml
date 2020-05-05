@@ -3,6 +3,16 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dotfiles" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/k3d/src/github.com/rancher/k3d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/k3s/src/github.com/rancher/k3s" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/kontainer-engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/machine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/norman/src/github.com/rancher/norman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/quickstart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/rancher/src/github.com/rancher/rancher" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/rke/src/github.com/rancher/rke" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/types/src/github.com/rancher/types" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/idea/config/scratches/vagrant/devbox/rancher/ui" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/_fa" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/ifab" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/nvidia/infoblox" vcs="Git" />
@@ -15,94 +25,21 @@
     <mapping directory="$PROJECT_DIR$/nvidia/virtualxterm" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/org" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/org/fa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/a.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/ace-window" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/alchemist.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/all-the-icons.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/anaphora" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/annalist.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/atom-one-dark-theme" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/avy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/bui.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/cider" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/clojure-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/company-lsp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/company-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/dap-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/dash-docs" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/dash.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/dockerfile-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/doom-modeline" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/elisp-refs" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-async" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-elixir" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-helm-ag" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-htmlize" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-memoize" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacs-which-key" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/emacsmirror-mirror" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/epl" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/evil" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/evil-collection" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/evil-magit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/f.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/general.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/gnu-elpa-mirror" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/go-mode.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/goto-chg" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helm" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helm-dash" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helm-lsp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helm-projectile" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helm-rg" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/helpful" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/ht.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/hydra" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/inf-ruby" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/kubernetes-el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/loop.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/lsp-ivy" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/lsp-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/lsp-treemacs" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/lsp-ui" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/magit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/magit-popup" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/markdown-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/melpa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/paredit" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/parseclj" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/parseedn" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/persp-mode.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/pfuture" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/pkg-info" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/popup-el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/powerline" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/projectile" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/queue" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/rainbow-delimiters" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/restclient.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/s.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/sesman" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/shrink-path.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/spinner" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/straight.el" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/swiper" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/transient" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/treemacs" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/undo-tree" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/use-package" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/with-editor" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/workgroups2" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/yaml-mode" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/yasnippet" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/org/straight/repos/yasnippet-snippets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo.bak/pharo-local/iceberg/dionisiydk/libssh2-pharo-bindings" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo.bak/pharo-local/iceberg/svenvc/NeoCSV" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo/pharo-local/iceberg/dionisiydk/libssh2-pharo-bindings" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pharo/images/pharo/pharo-local/iceberg/svenvc/NeoCSV" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/zoom/platform/zoom/zoom-nes-order/functions-samples" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hub/firebase-dart" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../hub/maven-scm-publish-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/k3d/src/github.com/rancher/k3d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/k3s/src/github.com/rancher/k3s" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/norman/src/github.com/rancher/norman" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/quickstart" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/rancher/src/github.com/rancher/rancher" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/rke/src/github.com/rancher/rke" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/types/src/github.com/rancher/types" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../hub/rancher/ui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../lab/gitlab-runner" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../lab/jlic" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../lab/kml" vcs="Git" />
   </component>

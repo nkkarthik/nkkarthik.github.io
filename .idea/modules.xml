@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../lab/active-directory-javascript-graphapi-v2-quickstart/active-directory-javascript-graphapi-v2-quickstart.iml" filepath="$PROJECT_DIR$/../lab/active-directory-javascript-graphapi-v2-quickstart/active-directory-javascript-graphapi-v2-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examples/active-directory-javascript-graphapi-v2-quickstart/active-directory-javascript-graphapi-v2-quickstart.iml" filepath="$PROJECT_DIR$/examples/active-directory-javascript-graphapi-v2-quickstart/active-directory-javascript-graphapi-v2-quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/cloud_firestore/cloud_firestore_web/cloud_firestore_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/cloud_firestore/cloud_firestore_web/cloud_firestore_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/cloud_functions/cloud_functions_web/cloud_functions_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" filepath="$PROJECT_DIR$/../hub/firebase-dart/firebase-dart.iml" />
@@ -12,6 +12,16 @@
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_in_app_messaging/firebase_in_app_messaging.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_in_app_messaging/firebase_in_app_messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_messaging/firebase_messaging.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_messaging/firebase_messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" filepath="$PROJECT_DIR$/../hub/flutterfire/packages/firebase_storage/firebase_storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lab/gitlab-runner/gitlab-runner.iml" filepath="$PROJECT_DIR$/../lab/gitlab-runner/gitlab-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nvidia/ifab/ifab.iml" filepath="$PROJECT_DIR$/nvidia/ifab/ifab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/k3d/src/github.com/rancher/k3d/k3d.iml" filepath="$PROJECT_DIR$/../hub/rancher/k3d/src/github.com/rancher/k3d/k3d.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/k3s/src/github.com/rancher/k3s/k3s.iml" filepath="$PROJECT_DIR$/../hub/rancher/k3s/src/github.com/rancher/k3s/k3s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/norman/src/github.com/rancher/norman/norman.iml" filepath="$PROJECT_DIR$/../hub/rancher/norman/src/github.com/rancher/norman/norman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/quickstart/quickstart.iml" filepath="$PROJECT_DIR$/../hub/rancher/quickstart/quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/rancher/src/github.com/rancher/rancher/rancher.iml" filepath="$PROJECT_DIR$/../hub/rancher/rancher/src/github.com/rancher/rancher/rancher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/rke/src/github.com/rancher/rke/rke.iml" filepath="$PROJECT_DIR$/../hub/rancher/rke/src/github.com/rancher/rke/rke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/types/src/github.com/rancher/types/types.iml" filepath="$PROJECT_DIR$/../hub/rancher/types/src/github.com/rancher/types/types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hub/rancher/ui/ui.iml" filepath="$PROJECT_DIR$/../hub/rancher/ui/ui.iml" />
     </modules>
   </component>
 </project>

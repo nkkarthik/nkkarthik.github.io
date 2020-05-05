@@ -1,0 +1,20 @@
+= email
+
+== rancher customizations
+
+Hi Dave,
+
+Feroz and I were discussing few customizations that are specific to our organization's use cases.
+We want to check with your team on how to go about it (recommended approach, integration practice, suggestions etc).
+
+I am including details below to us save some time,
+but kindly forward.
+
+1. We want to link certain resources together.
+Say a certain `Service` resource will have a corresponding `Infoblox` (our custom) resource.
+For this we are thinking to have a management/user controller.
+If the approach is correct, how should we integrate with Rancher server.
+
+2. Include custom UI pieces for our users.  For example see below in the highlighted the information that is custom.
+What are your recommendations here?
+

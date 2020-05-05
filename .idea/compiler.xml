@@ -16,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="central" target="1.8" />
       <module name="fbsync" target="1.8" />
+      <module name="my-artifactId" target="1.8" />
       <module name="root" target="1.8" />
       <module name="ui" target="1.8" />
     </bytecodeTargetLevel>
