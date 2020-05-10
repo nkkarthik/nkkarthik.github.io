@@ -28,6 +28,31 @@
       });
     }
   </script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA6KkkTx1OyfYoRsadxUby6QQYI-7daSuQ",
+      authDomain: "nterm-poc.firebaseapp.com",
+      databaseURL: "https://nterm-poc.firebaseio.com",
+      projectId: "nterm-poc",
+      storageBucket: "nterm-poc.appspot.com",
+      messagingSenderId: "995894892009",
+      appId: "1:995894892009:web:19ffcaeeb5af70d71ea778"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    console.log("db initialized");
+  </script>
+
   <script src="main.dart.js" type="application/javascript"></script>
+
 </body>
 </html>

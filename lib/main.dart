@@ -1,6 +1,22 @@
-import 'package:flutter/material.dart';
+//
+// https://pub.dev/packages/firebase
 
-void main() {
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:firebase/firebase.dart';
+import 'package:pages/k8s.dart';
+
+Future<void> main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  Database db = database();
+  DatabaseReference ref = db.ref('terminals');
+  ref.onValue.listen((e) {
+    DataSnapshot d = e.snapshot;
+    print(d.val());
+  });
+
   runApp(MyApp());
 }
 
@@ -26,7 +42,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Demo Home Page'),
     );
   }
 }
@@ -51,6 +67,42 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+  String terminal = "";
+  List<Cluster> clusters = [];
+//  StreamSubscription<Event> clusterSubscription;
+
+  @override
+  void initState() {
+    super.initState();
+
+//    FirebaseDatabase db = FirebaseDatabase.instance;
+
+//    DatabaseReference clustersRef = db.reference().child('locations');
+//    clustersRef.once().then((value) => print(value));
+
+//    db.reference().child("terminals/NT0001").once().then((value) => print("wonderful"));
+
+//    print(db.databaseURL);
+//    print(db.app);
+//    print(db.app);
+//    db.reference().child("terminals/T1").onValue.listen((event) {
+//      setState(() {
+//        terminal = "ho";
+//      });
+//      print(event);
+//    });
+
+//    db.reference().child("k8s/clusters").once().then((value) => print("wonderful"));
+
+//    clustersRef.onValue.listen((event) {
+//      setState(() {
+//        // no error
+//        clusters.add(Cluster.fromSnapshot(event.snapshot));
+//        print(clusters);
+//        print(clusters);
+//      });
+//    });
+  }
 
   void _incrementCounter() {
     setState(() {
@@ -75,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text(terminal),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -102,6 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
+              key: Key('counter'),
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
@@ -110,6 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
+        key: Key('increment'),
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
