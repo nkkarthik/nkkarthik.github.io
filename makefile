@@ -25,7 +25,7 @@ clean:
 	flutter clean
 
 push:
-	git commit -m $@
+	-git commit -m $@
 	git push hub HEAD:master
 
 
