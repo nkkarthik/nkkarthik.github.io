@@ -13,10 +13,13 @@ geckodriver:
 
 #export VM_SERVICE_URL=http://127.0.0.1:8888
 export VM_SERVICE_URL=http://127.0.0.1:33199
-test:
+test: gen
 	dart test_driver/pages_test.dart
 	#flutter drive --target=test_driver/pages.dart --browser-name=firefox --profile
 	#flutter test
+
+gen:
+	flutter packages pub run build_runner build
 
 run:
 	flutter run -d Chrome --observatory-port 8888 --disable-service-auth-codes

@@ -2,20 +2,16 @@
 // https://pub.dev/packages/firebase
 
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:firebase/firebase.dart';
-import 'package:pages/k8s.dart';
+
+import 'models/k8s.dart';
+import 'models/serializers.dart';
 
 Future<void> main() {
   WidgetsFlutterBinding.ensureInitialized();
-
-  Database db = database();
-  DatabaseReference ref = db.ref('terminals');
-  ref.onValue.listen((e) {
-    DataSnapshot d = e.snapshot;
-    print(d.val());
-  });
 
   runApp(MyApp());
 }
@@ -68,12 +64,29 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String terminal = "";
-  List<Cluster> clusters = [];
+
+  K8s k8s = K8s();
+
 //  StreamSubscription<Event> clusterSubscription;
 
   @override
   void initState() {
     super.initState();
+
+    Database db = database();
+    DatabaseReference ref = db.ref('k8s');
+    ref.onValue.listen((e) {
+      DataSnapshot d = e.snapshot;
+      setState(() {
+        print("set state");
+//        k8s = serializers.deserializeWith(K8s.serializer, json.decode(e.toString()));
+//        Map<String, dynamic> clusters = e.snapshot. as Map<String, dynamic>;
+        k8s = serializers.deserializeWith(K8s.serializer, e.snapshot.val());
+        print(k8s.clusters.length);
+//        k8s = K8s.from(e.snapshot);
+//        print(k8s.name());
+      });
+    });
 
 //    FirebaseDatabase db = FirebaseDatabase.instance;
 
@@ -127,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(terminal),
+        title: Text("todo fixx me"),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
